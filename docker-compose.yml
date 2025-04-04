@@ -78,7 +78,7 @@ services:
       - zabbix-server
   zabbix-agent:
     container_name: zabbix-agent
-    image: zabbix/zabbix-agent2:alpine-7.2.4
+    image: zabbix/zabbix-agent2:alpine-lastet
     user: root
     networks:
       - network-zabbix
